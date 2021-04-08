@@ -1,5 +1,5 @@
 {
-  "name": "google-workplace-signatures"
+  "name": "google-workplace-signatures",
   "version": "1.0.0",
   "description": "Prep, create, and push email signatures in bulk",
   "main": "index.js",
