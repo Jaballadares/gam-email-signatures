@@ -1,0 +1,24 @@
+{
+  "name": "google-workplace-signatures"
+  "version": "1.0.0",
+  "description": "Prep, create, and push email signatures in bulk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified, tell John to create one\" && exit 1",
+    "html-minify": "html-minifier --input-dir fetched --output-dir minified --file-ext html --remove-comments --collapse-whitespace --minify-css true"
+  },
+  "author": "John Balladares",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "fast-glob": "^3.2.5",
+    "fs": "^0.0.1-security",
+    "inline-css": "^3.0.0",
+    "juice": "^7.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "html-minifier": "^4.0.0"
+  },
+  "type": "module"
+}
